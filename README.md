@@ -6,7 +6,7 @@ A portable replacement or alternative for the Windows Run dialog (`Win+R`). Sing
 
 Prunner does everything the native Windows Run dialog does — type a command, press Enter, it runs — but with a persistent history, dropdown navigation, admin elevation shortcut, and a cleaner UI that follows your system theme.
 
-More importantly, it works **even when the native Run dialog has been disabled**.
+It works **even when the native Run dialog has been disabled**.
 
 ## ⚠️ Disclaimer
 
