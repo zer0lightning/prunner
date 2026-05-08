@@ -19,6 +19,9 @@ Do **not** use this tool for unauthorized or malicious activity.
 
 You are responsible for how you use this software.
 
+## Screenshot
+![Prunner - Portable Windows Run](prunner-gui.png)
+
 ## What you can run
 
 - Any executable or system command (`notepad`, `calc`, `cmd`)
