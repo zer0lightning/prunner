@@ -60,7 +60,7 @@ Other scenarios where Win+R is unavailable but Prunner works:
 | Group Policy disables Run dialog | Prunner is just an `.exe`, unaffected by the policy |
 | Kiosk / locked-down shell | If Explorer is replaced, Win+R may not exist — Prunner still launches |
 | Remote Desktop sessions | Win+R behaves inconsistently over RDP; Prunner is self-contained |
-| Portable / USB use on foreign machines | No install needed — copy the `.exe` and run it |
+| Portable / USB use on any windows machines | No install needed — copy the `.exe` and run it |
 | Start Menu disabled or replaced | Pin Prunner to the taskbar or launch it via a desktop shortcut |
 
 > **Note:** If the environment also enforces AppLocker or Software Restriction Policies that block arbitrary executables by path, Prunner itself may be blocked from launching. Placing it in an allowed path (e.g. `C:\Program Files\`) or signing the binary addresses this.
