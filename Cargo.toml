@@ -2,7 +2,7 @@
 name = "prunner"
 version = "1.0.0"
 edition = "2021"
-description = "A secure, modern replacement for the Windows Run dialog"
+description = "A portable alternative for the Windows Run"
 build = "build.rs"
 
 [[bin]]
