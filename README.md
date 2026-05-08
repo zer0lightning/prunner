@@ -44,14 +44,14 @@ You are responsible for how you use this software.
 
 ## When the Run dialog is disabled
 
-In enterprise and managed environments, IT administrators commonly disable the native Run dialog via Group Policy:
+In enterprise and managed environments, IT administrators may disable the native Run dialog via Group Policy for security purposes. Prunner is designed to complement this — the policy remains in place, and administrators can deploy Prunner as a controlled, auditable alternative for users who need it.
 
 ```
 User Configuration → Administrative Templates → Start Menu and Taskbar
 → "Remove Run menu from Start Menu" = Enabled
 ```
 
-This kills `Win+R` entirely. **Prunner sidesteps this** — it is just a `.exe` you double-click. It calls `ShellExecuteW` directly (the same Win32 API Windows itself uses), so it is unaffected by the Run dialog policy.
+This disables Win+R entirely. Prunner works independently — it is just a .exe you double-click. It calls ShellExecuteW directly (the same Win32 API Windows itself uses), so it is not affected by the Run dialog policy.
 
 Other scenarios where Win+R is unavailable but Prunner works:
 
